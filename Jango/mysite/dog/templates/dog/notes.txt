@@ -1,0 +1,14 @@
+<!--<form method="get">
+	<div class="well">
+			<h4 style="margin-top: 0">Filter</h4>
+			<div class="row">
+				<div class="form-group col-sm-4 col-md-3">
+					
+				</div>
+			</div>
+				{{ filter.form.displayName.label_tag }}
+				{% render_field filter.form.username class="form-control" %}
+			</h4>
+	</div>
+	
+</form>-->

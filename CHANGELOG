@@ -1,0 +1,20 @@
+8dc68c5 (HEAD -> master, origin/master, origin/HEAD) Added 8.2 Python Lab
+008925d Added some work to cryptocurrency miner
+2e06425 Corrected formatting issues and placed data in tables
+8661b61 Fixed some broken code
+2fb726b Updated changelog
+8721db2 Can now search for particular breed of dog using selections
+c3922b5 Updated changelog
+0cc887f Added website at localhost/dog
+708c2be Merge branch 'master' of https://gitlab.op-bit.nz/BIT/2019/IN710_S1/manulsl1
+0c4cd51 Added a database with breeds and made an admin-user account, and changed the readme.txt.txt to readme.txt" "
+131838e Update readme.md
+13843b1 Update readme.md
+4dcede7 Add CHANGELOG
+85efc98 Added Jango files
+a343d81 Added Jango Folder
+8940468 Rearranged files, and added janga
+0f317a8 Added blackjack strat [complete]
+159e9dd Added straetgy (working on it)
+1bd4530 Added gitblack
+3ff89e8 Add new file

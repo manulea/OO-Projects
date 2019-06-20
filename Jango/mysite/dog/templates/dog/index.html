@@ -1,0 +1,89 @@
+{% extends "dog\base_generic.html" %}
+{% load static %}
+{% load widget_tweaks % }
+
+<!-- "form-group col-sm-4 col-md-3"> -->
+
+{% block content %}
+
+<br>
+<br>
+<h2>Welcome to Dog</h2>
+<p>A website dedicated to find your perfect dog!</p>
+<br>
+<br>
+
+<form method="get">
+	<div class="table-responsive text-nowrap">
+	<table class="table text-center">
+		<thead class="thead-dark">
+			<tr>
+				<th scope="col">Activity Level</th>
+				<th scope="col">Coat Length</th>
+				<th scope="col">Drools</th>
+				<th scope="col">Good With Children</th>
+				<th scope="col">Grooming Demand</th>
+				<th scope="col">Intelligence</th>
+				<th scope="col">Shedding Level</th>
+				<th scope="col">Size</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>{{ filter.form.activity_level }}</td>
+				<td>{{ filter.form.coat_length }}</td>
+				<td>{{ filter.form.drools }}</td>
+				<td>{{ filter.form.good_with_children }}</td>
+				<td>{{ filter.form.grooming_demand }}</td>
+				<td>{{ filter.form.intelligence }}</td>
+				<td>{{ filter.form.shedding_level }}</td>
+				<td>{{ filter.form.size }}</td>
+			</tr>
+		</tbody>
+	</table>
+	</div>
+	<br>
+	<button type="submit" class="btn btn-lg btn-primary">
+		<span class="glyphicon glyphicon-search"></span> fetch
+	</button>
+
+
+</form>
+
+<br>
+<br>
+<br>
+<br>
+
+<table class="table text-center table-border table-light table-hover">
+	<thead>
+		<th scope="col" verticle-align="middle">Breed</th>
+			<th scope="col" verticle-align="middle">Activity Level</th>
+			<th scope="col" verticle-align="middle">Coat Length</th>
+			<th scope="col" verticle-align="middle">Drools</th>
+			<th scope="col" verticle-align="middle">Good With Children</th>
+			<th scope="col" verticle-align="middle">Grooming Demand</th>
+			<th scope="col" verticle-align="middle">Intelligence</th>
+			<th scope="col" verticle-align="middle">Shedding Level</th>
+			<th scope="col" verticle-align="middle">Size</th>
+		</thead>
+
+	{% for breed in filter.qs %}
+	<tr>
+		<td class="align-middle">{{ breed.displayName }}</td>
+		<td class="align-middle">{{ breed.activity_level }}</td>
+		<td class="align-middle">{{ breed.coat_length }}</td>
+		<td class="align-middle">{{ breed.drools }}</td>
+		<td class="align-middle">{{ breed.good_with_children }}</td>
+		<td class="align-middle">{{ breed.grooming_demand }}</td>
+		<td class="align-middle">{{ breed.intelligence }}</td>
+		<td class="align-middle">{{ breed.shedding_level }}</td>
+		<td class="align-middle">{{ breed.size }}</td>
+		<td class="align-middle"><img src="{% static "DogImages/"%}{{ breed.imageName }}" alt="" height="auto" width="25%"></td>
+	</tr>
+	{% endfor %}
+
+</table>
+
+{% endblock %}

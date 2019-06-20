@@ -1,0 +1,16 @@
+id,activity_level,shedding_level,grooming_demand,intelligence,good_with_children,drools,coat_length,imageName,displayName,size
+1,High,High,High,Low,0,0,Long,AfghanHound.jpg,Afghan Hound,Large
+2,Medium,Low,Low,Med,1,1,Short,BassetHound.jpg,Basset Hound,Med
+3,High,Low,Medium,Medium,1,0,Short,Beagle.jpg,Beagle,Medium
+4,High,Low,High,High,1,0,Medium,Bichonfrise.jpg,Bichon Frise,Small
+5,High,High,High,High,0,0,Long,Borzoi.jpg,Borzoi,Large
+6,Medium,Low,Low,Medium,0,1,Short,Bulldog.jpg,Bull Dog,Medium
+7,Medium,Medium,High,Medium,1,0,Medium,CavalierKingCharlesSpaniel.jpg,Cavalier King Charles Spaniel,Small
+8,Medium,High,High,High,0,1,Long,ChownChow.jpg,Chow Chow,Large
+9,High,Low,Medium,High,0,0,Short,Dalmation.jpg,Dalmation,Large
+10,High,High,Medium,High,1,0,Long,GoldenRetriever.jpg,Golden Retriever,Large
+11,High,High,High,High,1,0,Long,Maltese.jpg,Maltese,Miniatu
+12,High,High,Medium,High,1,1,Long,Newfoundland.jpg,Newfoundland,Giant
+13,High,High,High,Medium,1,1,Long,OldEnglishSheepdog.jpg,Old English Sheepdog,Giant
+14,High,Low,Low,Low,1,1,Short,Pug.jpg,Pug,Miniature
+15,High,Medium,Medium,High,1,0,Medium,WestHighlandWhiteTerrior.jpg,West Highland White Terrier,Small
